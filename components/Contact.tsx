@@ -6,7 +6,7 @@ export default function Contact() {
     <div className='container mx-auto pb-8 w-11/12 sm:pb-10 sm:w-9/12 md:w-7/12'>
       <div className='space-y-2 my-8'>
         <h3 className='font-semibold text-3xl text-zinc-200 text-center' id='contect'> Contact </h3>
-        <p className='text-zinc-400 text-center'> My social Media Accounts. </p>
+        <p className='text-zinc-400 text-center'> Benim Sosyal Medya Hesaplarım. </p>
       </div>
       <div className='grid gap-4 md:grid-cols-2'>
         {socialMediaAccounts.map((props, key) => (
